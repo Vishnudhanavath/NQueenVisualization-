@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-container {
+    position: relative;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+}
+
+.queen-icon {
+    color: #fff;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.user-input {
+    padding-top: 20px;
+    background-color: #fff;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: orangered;
+    width: 400px;
+    outline: none;
+    color: green;
+    font-weight: bold;
+}
+
+.slider-input {
+    -webkit-appearance: none;
+    height: 7px;
+    border-radius: 7px;
+    outline: none;
+    background-color: orange;
+    width: 400px;
+}
+
+.range-label-container {
+    display: flex;
+    justify-content: space-between;
+    width: 400px; /* Ensure the range labels align with the slider */
+}
+
+.range-heading {
+    padding: 0;
+    margin-bottom: 1px; 
+ } 
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.play-button {
+    border: none;
+    outline: none;
+    color: #fdfffc;
+    width: 80px;
+    height: 35px;
+    background-color: #3725f7;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.play-button:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}

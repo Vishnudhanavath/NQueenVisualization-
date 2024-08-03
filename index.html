@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>N-Queen-Visualiser</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- heading -->
+    <header class="header-container">
+      <h1>N-Queen Visualisation  <i class="fas fa-chess-queen"></i></h1>
+    </header>
+
+    <!-- userinput  container -->
+     <div class="input-container">
+         <div>
+             <input type = "number" class = "user-input" id = "user-input" placeholder="Enter any number from 1 to 8" class = "px-2"/>
+         </div>
+         <div>
+            <h2 class="range-heading">Range</h2>
+            <div class="range-label-container">
+                <p>slow</p>
+                <p>Fast</p>
+            </div>  
+             <input type = "range" class = "slider-input" max = "100" min = 0 value = "50" id = "slider" />
+             <div id="progress-bar"></div>
+         </div>
+     </div>
+    <!-- button  -->
+     <div class="button-container">
+        <button class="play-button" id="play-button">
+            <i class="fa fa-play" aria-hidden="true"></i> Play
+          </button>
+     </div>
+     <!-- <div></div> -->
+    <script src="visualizer.js"></script>
+  </body>
+</html>
